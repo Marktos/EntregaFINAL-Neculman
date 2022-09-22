@@ -123,13 +123,20 @@ nav{
     padding: 40px 60px;
     margin: 50px;
 }
-.col1{
+.imagenes p{
+    color: aliceblue;
+    background-color: rgba(128, 128, 128, 0.404);
+    line-height: 1.8rem;
+    padding: 20px;
+}
+.col1, .col2, .col3, .col4{
     text-align: right;
     color: aliceblue;
     background-color: rgba(128, 128, 128, 0.404);
     line-height: 1.8rem;
     padding: 20px;
 }
+
 h5{
     color: #262626;
     text-align: center;
