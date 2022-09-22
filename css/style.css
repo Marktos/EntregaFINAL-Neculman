@@ -43,6 +43,7 @@ h3{
     border-radius: 50%;
 }
 nav{
+    display: flex;
     text-align: right;
 }
 .menu{
@@ -53,7 +54,9 @@ nav{
     margin: 20px auto;
 }
 .perfil{
-
+    text-align: left;
+    position: absolute;
+    display: flex;
 }
 .menu .item{
     display: inline-block;
@@ -113,7 +116,9 @@ nav{
 .container{
     background-color: #F2DC99;
     font-family:"Alice-Regular";
-    display: grid;
+    display: flex;
+    flex-direction: column;
+
 }
 .section1{
     background-color: #9e949462;
@@ -124,7 +129,8 @@ nav{
     margin: 50px;
     padding: 30px;
 }
-.sectionv{
+.sectionv {
+    
     background-color: #9e949462;
     height: 350px;
     background-position: center;

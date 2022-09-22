@@ -43,6 +43,7 @@ h3{
     border-radius: 50%;
 }
 nav{
+    display: flex;
     text-align: right;
 }
 .menu{
@@ -51,6 +52,11 @@ nav{
     padding: 0;
     width: 90%;
     margin: 20px auto;
+}
+.perfil{
+    text-align: left;
+    position: absolute;
+    display: flex;
 }
 .menu .item{
     display: inline-block;
