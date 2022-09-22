@@ -6,7 +6,6 @@
 body{
     background-color: #F2DC99;
     font-family:"Alice-Regular";
-    display: grid;
 }
 @font-face {
     font-family:"Alice-Regular";
@@ -20,7 +19,7 @@ h1{
     font-family: "Satisfy-Regular";
     color: #734002;
     text-align: center;
-    padding: 15px;
+    padding: px;
 }
 .titulo{
     font-size: 2.8rem;
@@ -89,8 +88,10 @@ nav{
 }
 .menu .item a:hover{
     color: rgb(255, 166, 0);
+    border-radius: 25%;
 }
 .menu .item:hover .submenu1{
+    text-align: center;
     display: block;
     color: rgb(255, 166, 0);
 }
@@ -102,6 +103,11 @@ nav{
     background-color: #262626f6;
     color: orange;
 }
+.container{
+    background-color: #F2DC99;
+    font-family:"Alice-Regular";
+    display: grid;
+}
 .section1{
     background-color: #9e949462;
     height: 350px;
@@ -110,10 +116,6 @@ nav{
     background-attachment: fixed;
     margin: 50px;
     padding: 30px;
-}
-.sectionv h3{
-    text-align: center; 
-    
 }
 .sectionv{
     background-color: #9e949462;
@@ -127,15 +129,12 @@ nav{
     flex-direction: row;
     align-items: stretch;
 }
-.sectionv h3 p{
-    justify-content: center;
-}
 .sectionv p{
     color: aliceblue;
     background-color: rgba(128, 128, 128, 0.404);
     line-height: 1.8rem;
     padding: 20px;
-    padding: 20px;
+    margin: 20px;
 }
 .section2{
     background-color: #9e949462;
@@ -168,6 +167,8 @@ h5{
 }
 footer{
     background-color: #F0AA0B;
-    height: 80px;
+    height: 120px;
 }
-@med
+.redes{
+    text-align: center;
+}

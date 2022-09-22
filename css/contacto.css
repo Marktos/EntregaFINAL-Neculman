@@ -149,5 +149,10 @@ h5{
 }
 footer{
     background-color: #F0AA0B;
-    height: 80px;
+    height: 120px;
 }
+.redes{
+    text-align: center;
+}
+
+@med

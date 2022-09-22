@@ -116,6 +116,20 @@ nav{
     line-height: 1.8rem;
     padding: 20px;
 }
+.imagenes{
+    background-color: #9e949462;
+    height: 2200px;
+    background-position: center;
+    padding: 40px 60px;
+    margin: 50px;
+}
+.col1{
+    text-align: right;
+    color: aliceblue;
+    background-color: rgba(128, 128, 128, 0.404);
+    line-height: 1.8rem;
+    padding: 20px;
+}
 h5{
     color: #262626;
     text-align: center;
@@ -123,5 +137,10 @@ h5{
 }
 footer{
     background-color: #F0AA0B;
-    height: 80px;
+    height: 120px;
 }
+.redes{
+    text-align: center;
+}
+
+@med
