@@ -124,7 +124,7 @@ nav{
 }
 .imagenes{
     background-color: #9e949462;
-    height: 2200px;
+    height: 1300px;
     background-position: center;
     padding: 40px 60px;
     margin: 50px;
@@ -142,7 +142,9 @@ nav{
     line-height: 1.8rem;
     padding: 20px;
 }
-
+.row-cols-2{
+    margin: 50px;
+} 
 h5{
     color: #262626;
     text-align: center;
@@ -150,10 +152,8 @@ h5{
 }
 footer{
     background-color: #F0AA0B;
-    height: 120px;
+    height: 140px;
 }
 .redes{
     text-align: center;
 }
-
-@med

@@ -113,13 +113,7 @@ nav{
     background-color: #262626f6;
     color: orange;
 }
-.container{
-    background-color: #F2DC99;
-    font-family:"Alice-Regular";
-    display: flex;
-    flex-direction: column;
 
-}
 .section1{
     background-color: #9e949462;
     height: 350px;
@@ -130,13 +124,14 @@ nav{
     padding: 30px;
 }
 
-.container1 .container2{
+.container {
     background-color: #9e949462;
-    height: 600px;
-    padding: 20px;
+    height: 700px;
+    padding: 80px ;
+   
     
 }
-.container1 p{
+.container p{
     text-align: center;
     color: aliceblue;
     background-color: rgba(128, 128, 128, 0.404);
@@ -144,16 +139,7 @@ nav{
     padding: 20px;
     margin: 20px;
 }
-.section3{
-    background-color: #9e949462;
-    height: 350px;
-    background-position: center;
-    background-repeat: none;
-    background-attachment: fixed;
-    margin: 50px;
-    padding: 30px;
-}
-.section1 p, .section2 p, .section3 p{
+.section1 p{
     color: aliceblue;
     background-color: rgba(128, 128, 128, 0.404);
     line-height: 1.8rem;
@@ -164,10 +150,52 @@ h5{
     text-align: center;
     padding: 10px;
 }
-footer{
+footer{ 
     background-color: #F0AA0B;
-    height: 150px;
+    height: 130px;
+    
 }
 .redes{
     text-align: center;
+}
+@media only screen and (max-width: 576px ){
+    .menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        list-style-type: none;
+        background-color: #F2A20C;
+        padding: 30px;
+        width: 90%;
+        margin: 20px auto;
+    }
+    .section1{
+        background-color: #9e949462;
+        height: 850px;
+        background-position: center;
+        background-repeat: none;
+        background-attachment: fixed;
+        margin: 50px;
+        padding: 30px;
+    }
+    .container {
+        background-color: #9e949462;
+        height: 700px;
+        padding: 30px ;
+        margin: 50px;
+        }
+    .carousel-inner{
+        width: 400px;
+        justify-content: center;
+        padding: 50px;
+        margin: 50px;
+    }
+    .container p{
+        text-align: center;
+        color: aliceblue;
+        background-color: rgba(128, 128, 128, 0.404);
+        line-height: 1.8rem;
+        padding: 20px;
+        margin: 20px;
+}
 }

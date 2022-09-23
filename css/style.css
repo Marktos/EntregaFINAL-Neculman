@@ -47,6 +47,9 @@ nav{
     text-align: right;
 }
 .menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
     list-style-type: none;
     background-color: #F2A20C;
     padding: 0;
@@ -57,6 +60,7 @@ nav{
     text-align: left;
     position: absolute;
     display: flex;
+    justify-content: left;
 }
 .menu .item{
     display: inline-block;
@@ -129,8 +133,7 @@ nav{
     margin: 50px;
     padding: 30px;
 }
-.sectionv {
-    
+.sectionv {   
     background-color: #9e949462;
     height: 350px;
     background-position: center;
@@ -194,8 +197,59 @@ h5{
 }
 footer{
     background-color: #F0AA0B;
-    height: 120px;
+    height: 140px;
 }
 .redes{
     text-align: center;
+}
+@media only screen and (max-width: 576px ){
+    .menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        list-style-type: none;
+        background-color: #F2A20C;
+        padding: 30px;
+        width: 90%;
+        margin: 20px auto;
+    }
+    .section1{
+        background-color: #9e949462;
+        height: 700px;
+        background-position: center;
+        background-repeat: none;
+        background-attachment: fixed;
+        margin: 50px;
+        padding: 30px;
+    }
+    .sectionv {   
+        background-color: #9e949462;
+        height: 750px;
+        background-position: center;
+        background-repeat: none;
+        background-attachment: fixed;
+        margin: 50px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        
+    }
+    .video{
+        width: 350px;
+        margin: 10px;
+        padding:30px ;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        list-style-type: none;
+        background-color: #F2A20C;
+        padding: 0px;
+        width: 90%;
+        margin: 20px auto;
+    }
 }
