@@ -66,17 +66,20 @@ nav{
     
 }
 .menu .submenu1{
+    text-align: center;
     position: absolute;
     display: none;
+    padding: 0px;
 }
 .menu .submenu2{
     position: absolute;
     display: none;
+    padding: 0px;
 }
 .menu .submenu1 .sub_i1{
     text-align: center;
     display: block;
-    font-size: 1rem;
+    font-size: 0.9rem;
     padding: auto;
 }
 .menu .submenu2 .sub_i2{
@@ -107,24 +110,10 @@ nav{
     background-color: #262626f6;
     color: orange;
 }
-.section1{
-    background-color: #9e949462;
-    height: 350px;
-    background-position: center;
-    background-repeat: none;
-    background-attachment: fixed;
-    margin: 50px;
-    padding: 30px;
-}
-.section1 p{
-    color: aliceblue;
-    background-color: rgba(128, 128, 128, 0.404);
-    line-height: 1.8rem;
-    padding: 20px;
-}
+
 .imagenes{
     background-color: #9e949462;
-    height: 1300px;
+    height: 1400px;
     background-position: center;
     padding: 40px 60px;
     margin: 50px;
@@ -156,4 +145,31 @@ footer{
 }
 .redes{
     text-align: center;
+}
+@media (min-width: 360px) and (max-width: 576px) {
+    .menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        list-style-type: none;
+        background-color: #F2A20C;
+        padding: 30px;
+        width: 90%;
+        margin: 20px auto;
+    }
+    .item{
+        text-align: center;
+        position: relative;
+        font-size: 1.2rem;
+        text-align: right;
+        
+    }
+    .imagenes{
+        display: flex;
+        flex-direction: column;
+    }
+    .colf1, .colf2, .colf3, .colf4{
+        max-width: 100%;
+        height: auto;
+    }
 }

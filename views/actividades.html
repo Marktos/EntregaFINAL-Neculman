@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/actividades.css">
     <link rel="icon" href="../Assets/img/favicon.ico">
     <title>Resolana Ecuestre</title>
 </head>
@@ -14,36 +15,49 @@
         <div id="top">
             <a href="../index.html"><h1 class="titulo"><img class="logo" src="../Assets/img/logoderesolana.jpg" alt=""> Resolana Ecuestre</h1></a>
             </div> 
-        <nav>
-            <div>
-            </div>
-            <ul class="menu">
-                <img class="perfil" width="60px" src="../Assets/img/5987462.png" alt="perfil">
-                <li class="item"><a href="../index.html">Inicio</a></li>
-                <li class="item"><a href="../views/nosotros.html">Nosotros</a></li>
-                <li class="item"><a href="../views/eventos.html">Eventos</a>
-                <ul class="submenu1">
-                    <li class="sub_i1"><a href="../views/eventos.html">Jineteadas</a></li>
-                    <li class="sub_i1"><a href="../views/eventos.html">Destresas</a></li>
-                    <li class="sub_i1"><a href="../views/eventos.html">Fiestas</a></li>
-                </li> 
+            <nav>
+                <ul class="menu">               
+                    <li class="item"><a href="../index.html">Inicio</a></li>
+                    <li class="item"><a href="../views/nosotros.html">Nosotros</a></li>
+                    <li class="item"><a href="../views/eventos.html">Eventos</a>
+                    <ul class="submenu1">
+                        <li class="sub_i1"><a href="../views/eventos.html">Jineteadas</a></li>
+                        <li class="sub_i1"><a href="../views/eventos.html">La Destresa</a></li>
+                        <li class="sub_i1"><a href="../views/eventos.html">Salon de eventos</a></li>
+                    </li>
+                    </ul>
+                    <li class="item"><a href="../views/actividades.html">Actividades</a>
+                    <ul class="submenu2">
+                        <li class="sub_i2"><a href="../views/actividades.html">Cabalgatas guiadas</a></li>
+                        <li class="sub_i2"><a href="../views/actividades.html">Paseos a caballo</a></li>
+                        <li class="sub_i2"><a href="../views/actividades.html">Tarde de granja</a></li>
+                    </li>
+                    </ul>
+                    <li class="item"><a href="../views/contacto.html">Contacto</a></li>
                 </ul>
-                <li class="item"><a href="../views/actividades.html">Actividades</a>
-                <ul class="submenu2">
-                    <li class="sub_i2"><a href="../views/actividades.html">Cabalgatas guiadas</a></li>
-                    <li class="sub_i2"><a href="../views/actividades.html">Paseos a caballo</a></li>
-                    <li class="sub_i2"><a href="../views/actividades.html">Tarde de granja</a></li>
-                </li>
-                </ul>
-                <li class="item"><a href="../views/contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+            </nav>
     </header>
     <main>
-        <section class="section3">
+        <section class="section1">
             <h3>Nuestras Actividades</h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, nam? Labore doloribus iusto culpa, blanditiis, ut hic vitae sequi consequuntur exercitationem, repudiandae nisi dolore veniam ipsum fuga laborum possimus totam?</p>
+
             <!--Colocar imagenes sobre paseos-->
+        </section>
+        <section class="galeria">
+            <div class="code code--small code--left" data-aos="zoom-in">
+                <img width="500px" src="../Assets/img/fotos resolana/galeria1.jpg" alt="Ovejas">
+            </div>
+            <div class="code code--small code--right" data-aos="zoom-in">
+                <img width="500px" src="../Assets/img/fotos resolana/galeria2.jpg" alt="Caballos">
+            </div>
+            <div data-aos="zoom-in">
+                <img width="500px" src="../Assets/img/fotos resolana/galeria3.jpg" alt="Paseos a caballo">
+            </div>
+            <div data-aos="zoom-in">
+                <img width="500px" src="../Assets/img/fotos resolana/galeria4.jpg" alt="Alimentos">
+            </div>
+
         </section>
     </main>
     <footer>
@@ -60,6 +74,9 @@
             </a>
         <a href="#top"><h5>Ir al Top</h5></a>
     </footer>
-    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

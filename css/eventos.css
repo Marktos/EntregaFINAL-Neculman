@@ -66,17 +66,20 @@ nav{
     
 }
 .menu .submenu1{
+    text-align: center;
     position: absolute;
     display: none;
+    padding: 0px;
 }
 .menu .submenu2{
     position: absolute;
     display: none;
+    padding: 0px;
 }
 .menu .submenu1 .sub_i1{
     text-align: center;
     display: block;
-    font-size: 1rem;
+    font-size: 0.9rem;
     padding: auto;
 }
 .menu .submenu2 .sub_i2{
@@ -136,8 +139,7 @@ nav{
     color: aliceblue;
     background-color: rgba(128, 128, 128, 0.404);
     line-height: 1.8rem;
-    padding: 20px;
-    margin: 20px;
+    
 }
 .section1 p{
     color: aliceblue;
@@ -152,43 +154,51 @@ h5{
 }
 footer{ 
     background-color: #F0AA0B;
-    height: 130px;
+    height: 140px;
     
 }
 .redes{
     text-align: center;
 }
-@media only screen and (max-width: 576px ){
+@media (min-width: 360px) and (max-width: 576px) {
     .menu{
         display: flex;
         flex-direction: column;
-        justify-content: right;
+        justify-content: center;
         list-style-type: none;
         background-color: #F2A20C;
         padding: 30px;
         width: 90%;
         margin: 20px auto;
     }
+    .item{
+        text-align: center;
+        position: relative;
+        font-size: 1.2rem;
+        text-align: right;
+        
+    } 
     .section1{
         background-color: #9e949462;
-        height: 850px;
+        height: 650px;
         background-position: center;
         background-repeat: none;
         background-attachment: fixed;
-        margin: 50px;
-        padding: 30px;
+        margin: 10px;
     }
-    .container {
+    .container{
         background-color: #9e949462;
-        height: 700px;
-        padding: 30px ;
-        margin: 50px;
+        height: 800px;
+        background-position: center;
+        background-repeat: none;
+        background-attachment: fixed;
+        margin: 10px;
         }
     .carousel-inner{
-        width: 400px;
+        max-width: 100%;
+        height: auto;
         justify-content: center;
-        padding: 50px;
-        margin: 50px;
+        
     }
     .container p{
         text-align: center;
