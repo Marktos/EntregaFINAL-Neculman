@@ -134,8 +134,9 @@ nav{
 }
 .galeria{
     background-color: #9e949462;
-    height: 350px;
-    width: 90%;
+    height: 450px;
+    max-width: 100%;
+    height: auto;
     background-position: center;
     background-repeat: none;
     background-attachment: fixed;
@@ -172,5 +173,21 @@ footer{
         font-size: 1.2rem;
         text-align: right;
         
+    }
+    .section1{
+        background-color: #9e949462;
+        height: 600px;
+        background-position: center;
+        background-repeat: none;
+        background-attachment: fixed;
+        margin: 10px;
+        padding: px;
+    }
+    .galeria{
+        
+        
+        
+
+      
     }
 }
