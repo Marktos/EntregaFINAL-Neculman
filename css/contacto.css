@@ -163,3 +163,28 @@ footer{
 .redes{
     text-align: center;
 } 
+@media (min-width: 360px) and (max-width: 576px) {
+    .menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        list-style-type: none;
+        background-color: #F2A20C;
+        padding: 30px;
+        width: 90%;
+        margin: 20px auto;
+    }
+    .form-register{
+        width: 400px;
+        background-color: #F2A20C;
+        padding: 50px;
+        margin: auto;
+        margin-top: 100px;
+        border-radius: 4px;
+        color: aliceblue;
+    }
+    .footer{
+            background-color: #F0AA0B;
+            height: 140px;
+    }
+}

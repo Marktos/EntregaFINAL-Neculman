@@ -119,33 +119,43 @@ nav{
 
 .section1{
     background-color: #9e949462;
-    height: 350px;
+    height: 500px;
     background-position: center;
     background-repeat: none;
     background-attachment: fixed;
     margin: 50px;
     padding: 30px;
 }
-
-.container {
-    background-color: #9e949462;
-    height: 700px;
-    padding: 80px ;
-   
-    
-}
-.container p{
-    text-align: center;
-    color: aliceblue;
-    background-color: rgba(128, 128, 128, 0.404);
-    line-height: 1.8rem;
-    
-}
 .section1 p{
     color: aliceblue;
+    font-size: 1.4rem;
     background-color: rgba(128, 128, 128, 0.404);
     line-height: 1.8rem;
     padding: 20px;
+}
+.section2{
+    background-color: #9e949462;
+    height: 1350px;
+    background-position: center;
+    background-repeat: none;
+    background-attachment: fixed;
+    margin: 50px;     
+    padding: 30px;
+    }
+.fotos{
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+    
+}
+.texto p{
+    text-align: center;
+    color: aliceblue;
+    font-size: 1.4rem;
+    background-color: rgba(128, 128, 128, 0.404);
+    line-height: 1.8rem;
+    padding: 20px;
+    margin: 20px;
 }
 h5{
     color: #262626;
@@ -180,32 +190,216 @@ footer{
     } 
     .section1{
         background-color: #9e949462;
-        height: 650px;
+        height: 1000px;
         background-position: center;
         background-repeat: none;
         background-attachment: fixed;
-        margin: 10px;
+        margin: 20px;     
+        padding: 15px;
     }
-    .container{
+    .section2{
         background-color: #9e949462;
-        height: 800px;
+        height: 700px;
         background-position: center;
         background-repeat: none;
         background-attachment: fixed;
-        margin: 10px;
+        margin: 20px;     
+        padding: 15px;
         }
-    .carousel-inner{
+    .fotos{
         max-width: 100%;
         height: auto;
         justify-content: center;
         
     }
-    .container p{
+    .texto p{
         text-align: center;
         color: aliceblue;
+        font-size: 1.4rem;
         background-color: rgba(128, 128, 128, 0.404);
         line-height: 1.8rem;
         padding: 20px;
         margin: 20px;
 }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    .menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        list-style-type: none;
+        background-color: #F2A20C;
+        padding: 0px;
+        width: 90%;
+        margin: none;
+    }
+    .menu .item{
+        display: inline-block;
+        position: relative;
+        font-size: 1rem;
+        text-align: center;
+        
+    }
+    .menu .submenu1{
+        position: absolute;
+        display: none;
+    }
+    .menu .submenu2{
+        position: absolute;
+        display: none;
+    }
+    .menu .submenu1 .sub_i1{
+        text-align: center;
+        display: block;
+        font-size: 1rem;
+        padding: auto;
+    }
+    .menu .submenu2 .sub_i2{
+        text-align: center;
+        display: block;
+        font-size: 0.9rem;
+        padding: auto;
+    }
+    .menu .item a{
+        color: #3d3737;
+        text-decoration: none;
+        font-weight: bolder;
+        display: inline-block;
+        padding: 20px;
+    }
+    .menu .item a:hover{
+        color: rgb(255, 166, 0);
+        
+        display: flex;
+        flex-direction: column;
+    }
+    .menu .item:hover .submenu1{
+        text-align: justify;
+        display: flex;
+        flex-direction: column;
+        color: rgb(255, 166, 0);
+    }
+    .menu .item:hover .submenu2{
+        display: flex;
+        flex-direction: column;
+        color: rgb(255, 166, 0);
+    }
+    .menu .item:hover a{
+        background-color: #262626f6;
+        color: orange;
+    }
+    .section1{
+        background-color: #9e949462;
+        height: 700px;
+        background-position: center;
+        background-repeat: none;
+        background-attachment: fixed;
+        margin: 30px;
+        padding: 20px;
+    }
+    .section2{
+        background-color: #9e949462;
+        height: 700px;
+        background-position: center;
+        background-repeat: none;
+        background-attachment: fixed;
+        margin: 30px;     
+        padding: 20px;
+        }
+    .fotos{
+        max-width: 100%;
+        height: auto;
+        justify-content: center;
+        
+    }
+    .texto p{
+        text-align: center;
+        color: aliceblue;
+        font-size: 1.4rem;
+        background-color: rgba(128, 128, 128, 0.404);
+        line-height: 1.8rem;
+        padding: 20px;
+        margin: 20px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        list-style-type: none;
+        background-color: #F2A20C;
+        padding: 0px;
+        width: 90%;
+        margin: 20px auto;
+    }
+    .section1{
+        background-color: #9e949462;
+        height: 550px;
+        background-position: center;
+        background-repeat: none;
+        background-attachment: fixed;
+        margin: 50px;
+        padding: 30px;
+    }
+    .section2{
+        background-color: #9e949462;
+        height: 700px;
+        background-position: center;
+        background-repeat: none;
+        background-attachment: fixed;
+        margin: 50px;     
+        padding: 30px;
+        }
+    .fotos{
+        max-width: 100%;
+        height: auto;
+        justify-content: center;
+        
+    }
+    .texto p{
+        text-align: center;
+        color: aliceblue;
+        font-size: 1.4rem;
+        background-color: rgba(128, 128, 128, 0.404);
+        line-height: 1.8rem;
+        padding: 20px;
+        margin: 20px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        list-style-type: none;
+        background-color: #F2A20C;
+        padding: 0px;
+        width: 90%;
+        margin: 20px auto;
+    }
+    .section2{
+        background-color: #9e949462;
+        height: 800px;
+        background-position: center;
+        background-repeat: none;
+        background-attachment: fixed;
+        margin: 50px;     
+        padding: 30px;
+        }
+    .fotos{
+        max-width: 100%;
+        height: auto;
+        justify-content: center;
+        
+    }
+    .texto p{
+        text-align: center;
+        color: aliceblue;
+        font-size: 1.4rem;
+        background-color: rgba(128, 128, 128, 0.404);
+        line-height: 1.8rem;
+        padding: 20px;
+        margin: 20px;
+    }
 }
